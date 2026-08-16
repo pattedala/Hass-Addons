@@ -10,9 +10,9 @@ arch:
   - amd64
   - armv7
 
-# ingress feature for the add-on
-ingress: true
-ingress_stream: true
+hassio_api: true
+startup: services
+
 
 # homepage of the add-on
 url: https://github.com/pattedala/Hass-Addons/MQTTGatewayClient-addon
