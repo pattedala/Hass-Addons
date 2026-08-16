@@ -34,4 +34,4 @@ schema:
   iothub_connection_string: password
 
 # docker hub
-# image: pattedala/Hass-Addons/MQTTGatewayClient-addon-{arch}
+image: pattedala/Hass-Addons/MQTTGatewayClient-addon
