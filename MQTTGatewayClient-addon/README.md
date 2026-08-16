@@ -6,18 +6,20 @@ The add-on listens for messages on a configured MQTT topic and forwards the rece
 ## Mosquitto MQTT Broker required
 
 ## Data flow
-  Home Assistant
+```text
+Home Assistant
       │
       │ MQTT
       ▼
-  Mosquitto
+Mosquitto
       │
       ▼
 MQTT Gateway Client
       │
-      │
+      │ 
       ▼
 Azure IoT Hub
+```
 
 ## Configuration
 
