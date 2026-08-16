@@ -1,0 +1,37 @@
+name: MQTT Gateway Client
+version: "1.0.0"
+slug: mqtt_gateway_client
+description: MQTT gateway forwarding pool telemetry to Azure IoT Hub
+startup: application
+boot: auto
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armv7
+
+# ingress feature for the add-on
+ingress: true
+ingress_stream: true
+
+# homepage of the add-on
+url: https://github.com/pattedala/Hass-Addons/MQTTGatewayClient-addon
+
+options:
+  mqtt_host: core-mosquitto
+  mqtt_port: 1883
+  mqtt_topic: ""
+  mqtt_username: ""
+  mqtt_password: ""
+  iothub_connection_string: ""
+
+schema:
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_topic: str
+  mqtt_username: str
+  mqtt_password: password
+  iothub_connection_string: password
+
+# docker hub
+# image: pattedala/Hass-Addons/MQTTGatewayClient-addon-{arch}
