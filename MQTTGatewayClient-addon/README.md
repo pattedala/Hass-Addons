@@ -35,6 +35,6 @@ MQTT Topic – Topic to subscribe to
 MQTT Username / Password – MQTT authentication
 IoT Hub Connection String – Azure IoT Hub device connection string
 
-<img src="images/mqtt_config.png" width="300"/>
+<img src="../images/mqtt_config.png" width="300"/>
 
 The add-on runs as a background service and does not provide its own web interface.
