@@ -24,18 +24,12 @@ This is for you if you want to quickly set up a MqTT message transfer without mu
 
 ## Configuration
 After you start the addon you have an opportunity to review your settings within the addon's Web-UI before you connect it to your destination.  It is recommended to modify the setting this way because the UI makes it easy and explains what each option does.
-MQTT Host – MQTT broker hostname
-MQTT Port – MQTT broker port
-MQTT Topic – Topic to subscribe to
-MQTT Username / Password – MQTT authentication
-IoT Hub Connection String – Azure IoT Hub device connection string
 
-<img src="images/mqtt_config.png" width="300"/>
 
 >This project requires a little financial support to keep the Google Drive integration up and running, but it's completely free for you to use.
 >If you'd like to help keep the servers humming, the coffee flowing, and the developer marginally motivated, you can join the generous people keeping the lights on at::
 >  
->[<img src="images/bmc-button.svg" width=150 height=40 style="margin: 5px"/>](https://buymeacoffee.com/pattedala)
+>[<img src="images/default-blue.png" width=150 height=40 style="margin: 5px"/>](https://buymeacoffee.com/pattedala)
 
 
 
