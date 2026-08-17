@@ -17,6 +17,7 @@ This is for you if you want to quickly set up a MqTT message transfer without mu
    <img src="images/add_repo.png" width="300"/>
 
 3. Reload the page , scroll to the bottom to find the new repository, and click the new add-on named "Pattedala Home Assistant Add-ons":
+
    <img src="images/app_install.png" width="300"/>
    
    Note: Home Assistant loads the repository in the background and the new item won't always show up automatically.  You might need to wait a few seconds and then "hard refesh" the page for it to show up.  On most browser the keyboard shortcut for this is CTRL+F5. If it still doesn't show up, clear your browser's cache and it should then.
