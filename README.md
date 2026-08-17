@@ -17,15 +17,25 @@ This is for you if you want to quickly set up a MqTT message transfer without mu
    <img src="images/add_repo.png" width="300"/>
 
 3. Reload the page , scroll to the bottom to find the new repository, and click the new add-on named "Pattedala Home Assistant Add-ons":
-      
+   <img src="images/app_install.png" width="300"/>
    
    Note: Home Assistant loads the repository in the background and the new item won't always show up automatically.  You might need to wait a few seconds and then "hard refesh" the page for it to show up.  On most browser the keyboard shortcut for this is CTRL+F5. If it still doesn't show up, clear your browser's cache and it should then.
 4. Click <kbd>Install</kbd> and give it a few minutes to finish downloading.
 
-
 ## Configuration
-
 After you start the addon you have an opportunity to review your settings within the addon's Web-UI before you connect it to your destination.  It is recommended to modify the setting this way because the UI makes it easy and explains what each option does.
+MQTT Host – MQTT broker hostname
+MQTT Port – MQTT broker port
+MQTT Topic – Topic to subscribe to
+MQTT Username / Password – MQTT authentication
+IoT Hub Connection String – Azure IoT Hub device connection string
+
+<img src="images/mqtt_config.png" width="300"/>
+
+>This project requires a little financial support to keep the Google Drive integration up and running, but it's completely free for you to use.
+>If you'd like to help keep the servers humming, the coffee flowing, and the developer marginally motivated, you can join the generous people keeping the lights on at::
+>  
+>[<img src="images/bmc-button.svg" width=150 height=40 style="margin: 5px"/>](https://buymeacoffee.com/pattedala)
 
 
 
