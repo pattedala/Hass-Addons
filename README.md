@@ -7,9 +7,9 @@ Addons and other customs for Home Assistans
 ## About
 A complete and easy way to send a MqTT message to any remote location, as Azure event hub etc.
 
-This is for you if you want to quickly set up a MqTT message transfer without much fuss. It doesn't require much familiarity with Home Assistant, its architecture, or MqTT. Detailed install instructions are provided below but you can just add this repo, click install and open the Web UI. It will tell you what to do and only takes a few simple clicks.  [Detailed install instructions are below](#detailed-install-instructions) if that doesn't seem clear.
+This is for you if you want to quickly set up a MqTT message transfer without much fuss. It doesn't require much familiarity with Home Assistant, its architecture, or MqTT. Detailed install instructions are provided below but you can just add this repo, click "ADD APP REPOSITORY" above and open the Web UI. It will tell you what to do and only takes a few simple clicks.  Detailed install instructions are following if that doesn't seem clear.
 
-### Detailed Install Instructions
+## Detailed Install Instructions
 1. Navigate in your Home Assistant frontend to <kbd>Settings</kbd> -> <kbd>Add-ons</kbd> -> <kbd>Add-on Store (Bottom Right)</kbd>.
 
 2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/pattedala/Hass-Addons](hhttps://github.com/pattedala/Hass-Addons)
