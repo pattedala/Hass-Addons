@@ -22,7 +22,10 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-local-data/
+
+
+# Local application data
+[Ll][Oo][Cc][Aa][Ll]-[Dd][Aa][Tt][Aa]/
 
 # .NET Core
 project.lock.json
