@@ -1,8 +1,0 @@
-{
-  "MqttHost": "192.168.200.99",
-  "MqttPort": 1883,
-  "MqttTopic": "pool/temp",
-  "MqttUsername": "mqqtuser",
-  "MqttPassword": "4321NyckelMqTT",
-  "IoTHubConnectionString": "HostName=iothub-home-automation.azure-devices.net;DeviceId=pool-temp001;SharedAccessKey=t8O8ZVtjbXBx7JQrPz0ummDZJ6E6NlwnT1q6tYrKZZM="
-}
