@@ -14,17 +14,22 @@ arch:
 url: https://github.com/pattedala/Hass-Addons/MQTTGatewayClient-addon
 
 options:
-  mqtt_host: core-mosquitto
+  mqtt_host: ""
   mqtt_port: 1883
-  mqtt_topic: ""
   mqtt_username: ""
   mqtt_password: ""
-  iothub_connection_string: ""
+
+  routes: []
 
 schema:
   mqtt_host: str
-  mqtt_port: int
-  mqtt_topic: str
+  mqtt_port: port
   mqtt_username: str
   mqtt_password: password
-  iothub_connection_string: password
+
+  routes:
+    - mqtt_topic: str
+      iothub_connection_string: password
+
+services:
+  - mqtt
