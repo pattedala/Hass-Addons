@@ -5,10 +5,10 @@ namespace MQTTGatewayClient.Configuration;
 public class GatewayOptions
 {
     [JsonPropertyName("mqtt_host")]
-    public string MqttHost { get; set; } = "core-mosquitto";
+    public string MqttHost { get; set; } = string.Empty;
 
     [JsonPropertyName("mqtt_port")]
-    public int MqttPort { get; set; } = 1883;
+    public int MqttPort { get; set; } 
 
     [JsonPropertyName("mqtt_username")]
     public string? MqttUsername { get; set; }
