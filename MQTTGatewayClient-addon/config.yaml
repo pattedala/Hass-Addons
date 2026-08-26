@@ -29,7 +29,4 @@ schema:
 
   routes:
     - mqtt_topic: str
-      iothub_connection_string: password
-
-services:
-  - mqtt
+      azure_connection_string: password
