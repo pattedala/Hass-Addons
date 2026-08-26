@@ -14,7 +14,7 @@ arch:
 url: https://github.com/pattedala/Hass-Addons/MQTTGatewayClient-addon
 
 options:
-  mqtt_host: ""
+  mqtt_host: "core-mosquitto "
   mqtt_port: 1883
   mqtt_username: ""
   mqtt_password: ""
