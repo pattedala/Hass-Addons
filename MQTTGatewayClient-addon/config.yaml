@@ -1,5 +1,5 @@
 name: MQTT Gateway Client
-version: "1.0.1"
+version: "1.0.2"
 slug: mqtt_gateway_client
 description: MQTT gateway forwarding pool telemetry to Azure IoT Hub (might be used for other purposes as well)
 boot: auto
