@@ -33,7 +33,7 @@ namespace MQTTGatewayClient.Services
                 ContentType = "application/octet-stream"
             };
 
-            message.Properties["mqttTopic"] = topic;
+            message.Properties["mqtt_topic"] = topic;
 
             _logger.LogInformation("Sending {Length} bytes from MQTT topic {Topic} to Azure", payload.Length, topic);
 
