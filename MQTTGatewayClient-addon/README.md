@@ -35,11 +35,14 @@ MQTT Topic – Topic to subscribe to
 MQTT Username / Password – MQTT authentication
 IoT Hub Connection String – Azure IoT Hub device connection string
 
-<img src="https://raw.githubusercontent.com/pattedala/HASS-Azure/main/images//mqtt_config.png" width="400"/>
+![MQTT configuration in the Home Assistant frontend][config]
 
 Then hit 'Add' button to type topic to subscribe on and the connection string of yours,
 you can add multiple topics/connections strings to listen for
 
-<img src="https://raw.githubusercontent.com/pattedala/HASS-Azure/main/images/multi_connection.png" width="400"/>
+![MQTT multiple configuration in the Home Assistant frontend][multiple]
 
 The add-on runs as a background service and does not provide its own web interface.
+
+[config]: https://raw.githubusercontent.com/pattedala/Hass-Addons/main/MQTTGatewayClient-addon/images/mqtt_config.png
+[multiple]: https://raw.githubusercontent.com/pattedala/Hass-Addons/main/MQTTGatewayClient-addon/images/multi_connection.png
